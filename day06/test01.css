@@ -1,0 +1,25 @@
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: green;
+}
+
+a:first-child {
+    font-size: 40px;
+}
+
+a:last-child {
+    font-weight: bold;
+}
+
+a:nth-child(3) {
+    font-size: 60px;
+}
+
+a:

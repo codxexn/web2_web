@@ -1,0 +1,18 @@
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Cambria, "Tresbuchet MS", sans-serif;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+span {
+    /* 인라인 요소는 text-align 불가능 */
+    color: green;
+}
+
+div {
+    background-color: black;
+    color: white;
+}

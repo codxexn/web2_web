@@ -1,0 +1,46 @@
+main {
+    display: flex;
+}
+
+div {
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    background-color: thistle;
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+}
+
+.div1 {
+    transition-property: width, height;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+.div1:hover {
+    width: 200px;
+    height: 200px;
+}
+
+.div2 {
+    transition: all 2s ease-in;
+}
+
+.div2:hover {
+    background-color: yellow;
+    transform: translate(30px, 30px);
+}
+
+.div3 {
+    transition: all 1.5s ease-out;
+}
+
+.div3:hover {
+    color: snow;
+    transform: rotate(150deg);
+}

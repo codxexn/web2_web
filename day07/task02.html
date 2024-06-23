@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My blog</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(233, 233, 233);
+        }
+
+        nav {
+            background-color: rgb(42, 42, 42);
+        }
+
+        ul {
+            display: flex;
+        }
+
+        ul > li {
+            list-style-type: none;
+            color: white;
+            font-size: 15px;
+        }
+
+        .nav-content {
+            margin-right: 20px;
+        }
+
+        .home {
+            position: absolute;
+            right: 0;
+            float: right;
+            width: 50px;
+            height: 30px;
+            line-height: 30px;
+            background-color: darkorange;
+            text-align: center;
+        }
+
+        section {
+            margin: 5px;
+            padding: 10px;
+        }
+
+        .image {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 203, 211, 0.422);
+        }
+
+        .sec1, .sec2 {
+            background-color: white;
+            width: 65%;
+            height: 100%;
+            float: left;
+        }
+
+        .sec3, .sec4, .sec5 {
+            background-color: white;
+            width: 30%;
+            height: 100%;
+            float: right;
+        }
+
+        .description {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+    
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>나의 블로그</h1>
+        <section>이 공간은 000의 블로그입니다. 공부한 내용을 정리하고 있습니다.</section>
+        <nav>
+            <ul>
+                <li class="nav-content">메뉴1</li>
+                <li class="nav-content">메뉴2</li>
+                <li class="nav-content">메뉴3</li>
+                <li class="nav-content">메뉴4</li>
+                <li class="home">홈</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sec1">
+            <h2>HTML, CSS 총 정리</h2>
+            <div class="description">작성일: 2024년 1월 22일</div>
+            <div class="image">이미지<img src="" alt=""></div>
+            <div>텍스트..</div>
+            <div>HTML, CSS 공부한 것들 작성</div>
+        </section>
+        <section class="sec2">
+            <h2>내 소개</h2>
+            <div class="description">본인 이름, 2024년 1월 22일</div>
+            <div class="image">이미지<img src="" alt=""></div>
+            <div>000 소개<br>
+                이름: 본인 이름<br>
+                나이: 본인 나이<br>
+                전공: 000<br>
+                취미: 000
+            </div>
+        </section>
+        <section class="sec3">
+            <h2>comment</h2>
+            <div class="image">이미지<img src="" alt=""></div>
+        </section>
+        <section class="sec4">
+            <h2>인기있는 글</h2>
+            <div class="image">이미지<img src="" alt=""></div>
+            <div class="image">이미지<img src="" alt=""></div>
+            <div class="image">이미지<img src="" alt=""></div>
+        </section>
+        <section class="sec5">
+            <h3>나를 팔로우하세요</h3>
+            <div>텍스트..</div>
+        </section>
+    </main>
+</body>
+</html>

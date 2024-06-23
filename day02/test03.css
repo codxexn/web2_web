@@ -1,0 +1,24 @@
+span {
+    color: blueviolet;
+}
+
+#big {
+   font-size: 24px; 
+}
+
+p {
+    background-color: rgb(121, 230, 255);
+}
+
+#bold {
+    font-weight: 700;
+}
+
+div {
+    background-color: palevioletred;
+    color: chartreuse;
+}
+
+.block {
+    font-size: 18px;
+}

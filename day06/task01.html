@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-input</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <div>id : <input type="text"></div>
+            <div>pw : <input type="password"></div>
+            <div>date : <input type="date"></div>
+            <div><input type="submit"></div>
+            <div><input type="reset"></div>
+            <div><input type="file"></div>
+            <div><input type="hidden" name="test" value="test"></div>
+            <div>
+                <div>radio</div>
+                <!-- name 을 같은 값으로 설정해야 중복을 허용하지 않게 된다. -->
+                <!-- checked를 한 영역에 기본으로 체크가 돼 있다. -->
+                선택1<input type="radio" value="1" name="radio1" checked>
+                선택2<input type="radio" value="2" name="radio1">
+                선택2<input type="radio" value="3" name="radio1">
+            </div>
+            <div>
+                <div>checkbox</div>
+                <!-- 중복이 허용된다. -->
+                <!-- checked를 한 영역에 기본으로 체크가 돼 있다. -->
+                선택1 <input type="checkbox" name="1" id="check1" checked>
+                선택2 <input type="checkbox" name="2" id="check1">
+                선택3 <input type="checkbox" name="3" id="check1">
+                선택4 <input type="checkbox" name="4" id="check1">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
